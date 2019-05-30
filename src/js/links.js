@@ -29,6 +29,10 @@ let mediaLinks = [
   {
     name: "ArchWiki",
     url: "https://wiki.archlinux.org"
+  },
+    {
+    name: "StackExchange - Where Developers Go To Die",
+    url: "https://stackexchange.com"
   }
 ]
 
@@ -56,6 +60,20 @@ let productivityLinks = [
 ]
 
 let newsLinks = [
+  {
+    name: "Google News",
+    url: "https://news.google.com"
+  },
+  {
+    name: "BBC News",
+    url: "https://bbc.co.uk/news"
+  },
+  {
+    name: "Reuters  News",
+    url: "https://uk.reuters.com"
+  }
+  
+  let newsLinks = [
   {
     name: "Google News",
     url: "https://news.google.com"
