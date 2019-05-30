@@ -72,20 +72,6 @@ let newsLinks = [
     name: "Reuters  News",
     url: "https://uk.reuters.com"
   }
-  
-  let newsLinks = [
-  {
-    name: "Google News",
-    url: "https://news.google.com"
-  },
-  {
-    name: "BBC News",
-    url: "https://bbc.co.uk/news"
-  },
-  {
-    name: "Reuters  News",
-    url: "https://uk.reuters.com"
-  }
 ]
 
 let weatherIconDict = {
