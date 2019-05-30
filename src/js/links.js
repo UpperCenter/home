@@ -31,7 +31,7 @@ let mediaLinks = [
     url: "https://wiki.archlinux.org"
   },
     {
-    name: "StackExchange - Where Developers Go To Die",
+    name: "StackExchange",
     url: "https://stackexchange.com"
   }
 ]
