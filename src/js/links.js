@@ -10,6 +10,10 @@ let socialLinks = [
   {
     name: "Youtube",
     url: "https://youtube.co.uk"
+  },
+  {
+    name: "LinkedIn",
+    url: "https://linkedin.com"
   }
 ]
 
@@ -21,12 +25,7 @@ let mediaLinks = [
   {
     name: "ArchWiki",
     url: "https://wiki.archlinux.org"
-  },
-  {
-    name: "Github",
-    url: "https://github.com"
-  }, 
-
+  }
 ]
 
 let productivityLinks = [
