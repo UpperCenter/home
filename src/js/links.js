@@ -75,6 +75,10 @@ let newsLinks = [
   {
     name: "Reuters  News",
     url: "https://uk.reuters.com"
+  },
+  {
+   name: "Hacker News",
+   url: "https://thehackernews.com"
   }
 ]
 
