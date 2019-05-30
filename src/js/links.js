@@ -33,6 +33,10 @@ let mediaLinks = [
     {
     name: "StackExchange",
     url: "https://stackexchange.com"
+  },
+  {
+   name: "Manjaro Wiki",
+   url: "https://wiki.manjaro.org"
   }
 ]
 
@@ -51,7 +55,7 @@ let productivityLinks = [
   },
   {
     name: "OneDrive",
-    url: "https://universityofsouthwales-my.sharepoint.com"
+    url: "https://office.com"
   },
   {
     name: "Google Drive",
