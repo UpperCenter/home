@@ -14,6 +14,10 @@ let socialLinks = [
   {
     name: "LinkedIn",
     url: "https://linkedin.com"
+  },
+    {
+    name: "Spotify",
+    url: "https://open.spotify.com"
   }
 ]
 
