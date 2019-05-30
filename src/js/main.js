@@ -252,8 +252,6 @@ function setLinks() {
 			let hyperlink = document.createElement("a")
 			hyperlink.href = `${link.url}`
 			hyperlink.textContent = `${link.url}`
-			hyperlink.target = "_blank"
-			hyperlink.rel = "noopener noreferrer"
 			element.textContent = string
 			element.appendChild(hyperlink)
 			item.div.appendChild(element)
