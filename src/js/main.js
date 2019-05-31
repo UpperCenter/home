@@ -223,25 +223,30 @@ function midnightCheck() {
 
 function setLinks() {
 	let socialDiv = document.getElementById("social-links")
-	let mediaDiv = document.getElementById("media-links")
-	let productivityDiv = document.getElementById("productivity-links")
+	let informationDiv = document.getElementById("information-links")
+	let universityDiv = document.getElementById("university-links")
 	let newsDiv = document.getElementById("news-links")
+	let infosecDiv = document.getElementById("infosec-links")
 
 	let stuff = [{
 			div: socialDiv,
 			links: socialLinks
 		},
 		{
-			div: mediaDiv,
-			links: mediaLinks
+			div: informationDiv,
+			links: informationLinks
 		},
 		{
-			div: productivityDiv,
-			links: productivityLinks
+			div: universityDiv,
+			links: universityLinks
 		},
 		{
 			div: newsDiv,
 			links: newsLinks
+		},
+		{
+			div: infosecDiv,
+			links: infosecLinks
 		}
 	]
 

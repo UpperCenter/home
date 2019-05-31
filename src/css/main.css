@@ -165,6 +165,10 @@ body.light .search-bar {
   color: #00ddfa;
 }
 
+#qh {
+  color: #e1fa00;
+}
+
 /* Code for Toggle: https://www.cssscript.com/material-style-toggle-switches-with-pure-css-css3/ */
 .lbl {
   margin-left: 10px;

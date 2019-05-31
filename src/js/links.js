@@ -18,39 +18,47 @@ let socialLinks = [
     {
     name: "Spotify",
     url: "https://open.spotify.com"
+  },
+  {
+    name: "Twitch",
+    url: "https://www.twitch.tv"
+  },
+  {
+    name: "Good Cyberpunk Films & TV",
+    url: "https://github.com/k4m4/movies-for-hackers"
   }
 ]
 
-let mediaLinks = [
+let informationLinks = [
   {
     name: "Coinlib",
     url: "https://coinlib.io"
   },
   {
-    name: "ArchWiki",
-    url: "https://wiki.archlinux.org"
-  },
-    {
     name: "StackExchange",
     url: "https://stackexchange.com"
   },
   {
+    name: "ArchWiki",
+    url: "https://wiki.archlinux.org"
+  },
+  {
    name: "Manjaro Wiki",
    url: "https://wiki.manjaro.org"
+  },
+  {
+    name: "Hacking Lib & Resources",
+    url: "https://github.com/sbilly/awesome-security"
   }
 ]
 
-let productivityLinks = [
-  {
-    name: "Github",
-    url: "https://github.com"
-  },
+let universityLinks = [
   {
     name: "Unilearn", 
     url: "https://unilearn.southwales.ac.uk"
   },
   {
-    name: "Library Resources",
+    name: "FindIt Library Resources",
     url: "https://library.southwales.ac.uk"
   },
   {
@@ -60,13 +68,22 @@ let productivityLinks = [
   {
     name: "Google Drive",
     url: "https://drive.google.com"
+  },
+  {
+    name: "Google Open Directory Search",
+    url: "http://palined.com/search"
   }
+  
 ]
 
 let newsLinks = [
   {
-    name: "Google News",
-    url: "https://news.google.com"
+    name: "Dark Reading",
+    url: "https://www.darkreading.com"
+  },
+  {
+    name: "Hacker News",
+    url: "https://thehackernews.com"
   },
   {
     name: "BBC News",
@@ -75,10 +92,33 @@ let newsLinks = [
   {
     name: "Reuters  News",
     url: "https://uk.reuters.com"
+  }
+]
+
+let infosecLinks = [
+  {
+    name: "Exploit Database",
+    url: "https://www.exploit-db.com"
   },
   {
-   name: "Hacker News",
-   url: "https://thehackernews.com"
+    name: "US NIST Database",
+    url: "https://nvd.nist.gov/vuln/search"
+  },
+  {
+    name: "Shodan",
+    url: "https://www.shodan.io"
+  },
+  {
+    name: "VulnHub",
+    url: "https://www.vulnhub.com"
+  },
+  {
+    name: "Useful Tools",
+    url: "https://tools.kali.org/tools-listing"
+  },
+  {
+    name: "Find Anyone By Email",
+    url: "https://hunter.io"
   }
 ]
 
