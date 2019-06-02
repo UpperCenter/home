@@ -82,6 +82,10 @@ let newsLinks = [
     url: "https://www.darkreading.com"
   },
   {
+    name: "InfoSec Industry",
+    url: "https://infosecindustry.com"
+  },
+  {
     name: "Hacker News",
     url: "https://thehackernews.com"
   },
