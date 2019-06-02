@@ -63,7 +63,7 @@ let universityLinks = [
   },
   {
     name: "OneDrive",
-    url: "https://office.com"
+    url: "https://bit.ly/OneDRV"
   },
   {
     name: "Google Drive",
