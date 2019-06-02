@@ -25,7 +25,7 @@ let socialLinks = [
   },
   {
     name: "Good Cyberpunk Films & TV",
-    url: "https://github.com/k4m4/movies-for-hackers"
+    url: "https://hackermovie.club"
   }
 ]
 
@@ -63,15 +63,11 @@ let universityLinks = [
   },
   {
     name: "OneDrive",
-    url: "https://bit.ly/OneDRV"
+    url: "https://office.com"
   },
   {
     name: "Google Drive",
     url: "https://drive.google.com"
-  },
-  {
-    name: "Google Open Directory Search",
-    url: "http://palined.com/search"
   },
   {
     name: "USW Referencing Guide",
@@ -123,6 +119,10 @@ let infosecLinks = [
   {
     name: "Find Anyone By Email",
     url: "https://hunter.io"
+  },
+  {
+    name: "Google Open Directory Search",
+    url: "http://palined.com/search"
   }
 ]
 
