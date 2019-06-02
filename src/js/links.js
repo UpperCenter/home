@@ -72,6 +72,10 @@ let universityLinks = [
   {
     name: "Google Open Directory Search",
     url: "http://palined.com/search"
+  },
+  {
+    name: "USW Referencing Guide",
+    url: "https://uppercenter.github.io/home/usw.pdf"
   }
   
 ]
