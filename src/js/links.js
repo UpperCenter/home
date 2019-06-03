@@ -63,7 +63,7 @@ let universityLinks = [
   },
   {
     name: "OneDrive",
-    url: "https://office.com"
+    url: "https://bit.ly/One-Drv"
   },
   {
     name: "Google Drive",
@@ -84,6 +84,10 @@ let newsLinks = [
   {
     name: "Hacker News",
     url: "https://thehackernews.com"
+  },
+  {
+    name: "Threat Post",
+    url: "https://threatpost.com/"
   },
   {
     name: "BBC News",
