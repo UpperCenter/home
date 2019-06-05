@@ -72,6 +72,10 @@ let universityLinks = [
   {
     name: "USW Referencing Guide",
     url: "https://uppercenter.github.io/home/usw.pdf"
+  },
+  {
+    name: "Microsoft Azure",
+    url: "https://bit.ly/AzureSoft"
   }
   
 ]
