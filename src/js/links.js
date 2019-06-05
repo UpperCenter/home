@@ -74,7 +74,7 @@ let universityLinks = [
     url: "https://uppercenter.github.io/home/usw.pdf"
   },
   {
-    name: "Microsoft Azure",
+    name: "Microsoft Azure Software",
     url: "https://bit.ly/AzureSoft"
   }
   
