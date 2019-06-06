@@ -1,7 +1,7 @@
 // unused variable
 // let forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?id=5317058&units=metric&APPID=9ec985f43b7fc537d4ab3d4953fb50ed"
 
-const locationUrl = "http://ip-api.com/json/"
+const locationUrl = "https://www.geoip-db.com/json/"
 const MAX_FETCH_RETRIES = 7
 
 // HTML elements that will be modified
@@ -107,12 +107,12 @@ function setIntervalAsync(fn, intervalInMillis) {
 
 async function getUserLocation() {
 	let json = await getJson(locationUrl)
-	return [json.countryCode, json.zip]
+	return [json.country_code, json.postal]
 }
 
 async function setWeather() {
-	let [country, zip] = await getUserLocation()
-	let weatherData = await getWeatherJson(country, zip)
+	let [country, postal] = await getUserLocation()
+	let weatherData = await getWeatherJson(country, postal)
 	let celsius = weatherData.main.temp
 	let fahrenheit = (weatherData.main.temp * (9 / 5) + 32).toFixed(2)
 	let primaryOption
@@ -265,8 +265,8 @@ function setLinks() {
 }
 
 // refactored here
-async function getWeatherJson(country, zip) {
-	let weatherUrl = `https://api.openweathermap.org/data/2.5/weather?zip=${zip},${country}&units=metric&APPID=9ec985f43b7fc537d4ab3d4953fb50ed`
+async function getWeatherJson(country, postal) {
+	let weatherUrl = `https://api.openweathermap.org/data/2.5/weather?zip=${postal},${country}&units=metric&APPID=9ec985f43b7fc537d4ab3d4953fb50ed`
 	return await getJson(weatherUrl)
 }
 
