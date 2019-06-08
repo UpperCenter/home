@@ -5,7 +5,7 @@ let socialLinks = [
   },
   {
     name : "Reddit",
-    url: "https://reddit.com"
+    url: "https://www.reddit.com/r/unixporn"
   },
   {
     name: "Youtube",
