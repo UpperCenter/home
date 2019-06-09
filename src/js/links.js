@@ -113,6 +113,10 @@ let infosecLinks = [
     url: "https://nvd.nist.gov/vuln/search"
   },
   {
+    name: "AbuseIPDB Lookup",
+    url: "https://www.abuseipdb.com"
+  },
+  {
     name: "Shodan",
     url: "https://www.shodan.io"
   },

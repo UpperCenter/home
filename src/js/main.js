@@ -389,7 +389,7 @@ function bodyClick(event) {
 		sidebar.classList.toggle("closed")
 }
 
-// Credit: https://stackoverflow.com/questions/2234979/how-to-check-in-javascript-if-one-element-is-contained-within-another
+// Thx to the bois over at StackOverflow for this gem
 
 function isDescendant(parent, child) {
 	var node = child.parentNode;
