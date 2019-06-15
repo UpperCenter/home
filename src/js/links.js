@@ -4,6 +4,10 @@ let socialLinks = [
     url: "https://twitter.com"
   },
   {
+    name: "OVH Webmail",
+    url: "https://pro1.mail.ovh.net"
+  },
+  {
     name : "Reddit",
     url: "https://www.reddit.com/r/unixporn"
   },
