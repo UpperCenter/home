@@ -125,15 +125,15 @@ let infosecLinks = [
     url: "https://www.shodan.io"
   },
   {
-    name: "VulnHub",
-    url: "https://www.vulnhub.com"
+    name: "Decent WHOIS Lookup",
+    url: "https://www.whoxy.com"
   },
   {
     name: "Useful Tools",
     url: "https://tools.kali.org/tools-listing"
   },
   {
-    name: "Find Anyone By Email",
+    name: "Find Company Employee Email",
     url: "https://hunter.io"
   },
   {

@@ -2,7 +2,7 @@
 // let forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?id=5317058&units=metric&APPID=9ec985f43b7fc537d4ab3d4953fb50ed"
 
 const locationUrl = "https://api.ip.sb/geoip/"
-const MAX_FETCH_RETRIES = 7
+const MAX_FETCH_RETRIES = 10
 
 // HTML elements that will be modified
 let div = document.getElementById("weather")
