@@ -11,28 +11,27 @@ html, body {
 }
 
 body.dracula {
-  background-color: #20212B;
+  background-color: #131313;
   color: white;
 }
 body.dracula .jumbotron {
-  background-color: #20212B;
+  background-color: #131313;
   color: white;
 }
 body.dracula a {
   color: #BBBBBB;
 }
 body.dracula a:hover {
-  color: #FF79C6;
+  color: #83ccff;
 }
 body.dracula .sidebar {
-  background-color: #2A2C39;
+  background-color: #1F1B24;
   color: white;
 }
 body.dracula .search-bar {
   color: #ffffff;
-  background-color: #2A2C39;
-  border-color: #0A2C39;
-  border-left-color: #0A2C39;
+  background-color: #1F1B24;
+  border-color: #bb86fc;
 }
 body.dracula hr {
   background-color: white;
@@ -50,7 +49,7 @@ body.dark a {
   color: #BBBBBB;
 }
 body.dark a:hover {
-  color: #ff33cc;
+  color: #bb86fc;
 }
 body.dark .sidebar {
   background-color: #444444;
@@ -78,7 +77,7 @@ body.light a {
   color: #2c2c2c;
 }
 body.light a:hover {
-  color: #ff33cc;
+  color: #bb86fc;
 }
 body.light hr {
   background-color: black;
