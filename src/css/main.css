@@ -207,6 +207,10 @@ body.light .search-bar {
   color: #e1fa00;
 }
 
+h4 {
+  border-bottom: solid thin currentColor;
+}
+
 /* Code for Toggle: https://www.cssscript.com/material-style-toggle-switches-with-pure-css-css3/ */
 .lbl {
   margin-left: 10px;
