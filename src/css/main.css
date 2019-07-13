@@ -55,7 +55,7 @@ body.dark {
 body.dark .jumbotron {
   background-color: #222222;
   color: white;
-  scrollbar-color: #3F3F3F;
+  scrollbar-color: white #3F3F3F;
 }
 
 body.dark a {
