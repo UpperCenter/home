@@ -13,7 +13,7 @@ let socialLinks = [
   },
   {
     name: "Youtube",
-    url: "https://youtube.co.uk"
+    url: "https://youtube.com"
   },
   {
     name: "LinkedIn",
