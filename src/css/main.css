@@ -1,3 +1,18 @@
+:root {
+  /* Dracula theme variables */
+  --dracula-theme-background: #0B0D0E;
+  --dracula-theme-foreground: white;
+  --dracula-scroll-background: #0B0D0E;
+  /* Dark theme variables */
+  --dark-theme-background: #222222;
+  --dark-theme-foreground: white;
+  --dark-scroll-background: #3F3F3F;
+  /* Light theme variables */
+  --light-theme-background: #DDDDDD;
+  --light-theme-foreground: black;
+  --light-scroll-background: #C0C0C0;
+}
+
 html, body {
   font-family: "Hack";
   /* background-image: url(../sheev.jpeg) */
@@ -6,14 +21,14 @@ html, body {
 }
 
 body.dracula {
-  background-color: #0b0d0e;
-  color: white;
+  background-color: var(--dracula-theme-background);
+  color: var(--dracula-theme-foreground);
 }
 
 body.dracula .jumbotron {
-  background-color: #0b0d0e;
-  color: white;
-  scrollbar-color: white #0b0d0e;
+  background-color: var(--dracula-theme-background);
+  color: var(--dracula-theme-foreground);
+  scrollbar-color: var(--dracula-theme-foreground) var(--dracula-theme-background);
 }
 
 body.dracula a {
@@ -40,14 +55,14 @@ body.dracula hr {
 }
 
 body.dark {
-  background-color: #222222;
-  color: white;
+  background-color: var(--dark-theme-background);
+  color: var(--dark-theme-foreground);
 }
 
 body.dark .jumbotron {
-  background-color: #222222;
-  color: white;
-  scrollbar-color: white #3F3F3F;
+  background-color: var(--dark-theme-background);
+  color: var(--dark-theme-foreground);
+  scrollbar-color: var(--dark-theme-foreground) var(--dracula-scroll-background);
 }
 
 body.dark a {
@@ -75,14 +90,14 @@ body.dark hr {
 }
 
 body.light {
-  background-color: #DDDDDD;
-  color: black;
+  background-color: var(--white-theme-background);
+  color: var(--light-theme-foreground);
 }
 
 body.light .jumbotron {
-  background-color: #DDDDDD;
-  color: black;
-  scrollbar-color: black #C0C0C0;
+  background-color: var(--light-theme-background);
+  color: var(--light-theme-foreground);
+  scrollbar-color: var(--light-theme-foreground) var(--light-scroll-background);
 }
 
 body.light a {
