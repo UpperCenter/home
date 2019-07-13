@@ -73,6 +73,11 @@
           </label>
 
         </div>
+        <div class="toggle">
+          <p class="settings-label">Autofocus Enable</p>
+          <input type="checkbox" id="searchAutofocusToggle" class="cbx hidden" onclick="searchAutofocusToggleFn(event)" />
+          <label for="searchAutofocusToggle" class="toggle-btn lbl"></label>
+        </div>
       </div>
 
       <div class="centerme">
@@ -120,8 +125,8 @@
 
         <form action="https://duckduckgo.com/" method="get">
           <div class="container input-group">
-            <input autocomplete="off" class="search-bar" name="q"
-              placeholder="Search DuckDuckGo, the Superior Search Engine" type="text" autofocus="">
+            <input autocomplete="off" class="search-bar" name="q" id="searchBar"
+              placeholder="Search DuckDuckGo, the Superior Search Engine" type="text">
           </div>
         </form>
 

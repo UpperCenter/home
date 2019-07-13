@@ -6,6 +6,7 @@ const MAX_FETCH_RETRIES = 10;
 
 // HTML elements that will be modified
 let div = document.getElementById("weather");
+let searchBar = document.getElementById("searchBar");
 
 // In this version, there are spans inside the main header which each have their own content. 
 let weatherContent = document.getElementById("weather-content");
@@ -25,6 +26,7 @@ let pickedDegreeRadio = degreeMode;
 let bothDegrees = localStorage.getItem("bothDegreesToggle");
 let theme = localStorage.getItem("theme");
 let pickedThemeRadio = theme;
+let searchAutofocus = localStorage.getItem("searchAutofocusToggle");
 
 // variables for updating weather status
 let sunrise;
@@ -53,6 +55,11 @@ async function main() {
 	setLinks();
 	document.getElementById("content").style.display = "contents";
 	document.getElementById("loading").style.display = "none";
+
+	// Hacky way of getting autofocus to work on Firefox
+	if (searchAutofocus == "yes") {
+		searchBar.focus();
+	}
 }
 
 function loadSettings() {
@@ -91,6 +98,11 @@ function loadSettings() {
 	document.body.classList.add(theme);
 	if (document.getElementById(`${theme}Radio`) != null) {
 		document.getElementById(`${theme}Radio`).checked = true;
+	}
+
+	if (searchAutofocusToggle == "yes") {
+		searchBar.setAttribute("autofocus","autofocus");
+		document.getElementById("searchAutofocusToggle").checked = true;
 	}
 
 }
@@ -405,6 +417,17 @@ function isDescendant(parent, child) {
 		node = node.parentNode;
 	}
 	return false;
+}
+
+function searchAutofocusToggleFn(event) {
+	if (event.target.checked) {
+		searchBar.setAttribute("autofocus","autofocus");
+		searchAutofocus = "yes";
+	} else {
+		searchBar.removeAttribute("autofocus");
+		searchAutofocus = "no";
+	}
+	localStorage.setItem("searchAutofocusToggle", searchAutofocus);
 }
 
 document.body.onclick = bodyClick;
