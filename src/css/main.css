@@ -13,7 +13,8 @@
   --light-scroll-background: #C0C0C0;
 }
 
-html, body {
+html,
+body {
   font-family: "Hack", monospace;
   /* background-image: url(../sheev.jpeg) */
   height: 100%;
@@ -54,6 +55,7 @@ body.dracula .search-bar {
 body.dracula hr {
   background-color: white;
 }
+
 /* ----------------- */
 
 /* ---- DARK THEME ---- */
@@ -91,6 +93,7 @@ body.dark .search-bar {
 body.dark hr {
   background-color: white;
 }
+
 /* -------------------- */
 
 /* ---- LIGHT THEME ---- */
@@ -128,13 +131,14 @@ body.light .search-bar {
   border-color: #a7a7a7;
   border-left-color: #a7a7a7;
 }
+
 /* --------------------- */
 
 
 .jumbotron {
   font-family: "Hack";
   height: 100%;
-    -webkit-transition: 0.5s;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   overflow-y: scroll;
 }

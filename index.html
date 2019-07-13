@@ -17,145 +17,145 @@
 </head>
 
 <body>
-    <div class="jumbotron jumbotron-fluid">
-      <h2 id="loading" class="centerme">Generating the Dankest Memes...</h2>
-      <div id="content" class="container">
+  <div class="jumbotron jumbotron-fluid">
+    <h2 id="loading" class="centerme">Generating the Dankest Memes...</h2>
+    <div id="content" class="container">
 
-        <a href="#" class="settings-button" id="sbtn1" onclick="toggleSidebar(event)">
-          <h3><i class="fa fa-bars" aria-hidden="true"></i></h3>
-        </a>
+      <a href="#" class="settings-button" id="sbtn1" onclick="toggleSidebar(event)">
+        <h3><i class="fa fa-bars" aria-hidden="true"></i></h3>
+      </a>
 
-        <!--Code for sidebar the right.-->
+      <!--Code for sidebar the right.-->
 
-        <div class="sidebar closed" id="sidebar">
-          <p>
-            <a href="#" class="settings-button" onclick="toggleSidebar(event)"><i class="fa fa-times"
-                aria-hidden="true"></i></a>
-          </p>
-          <h3>Settings</h3>
-          <hr id="bar">
+      <div class="sidebar closed" id="sidebar">
+        <p>
+          <a href="#" class="settings-button" onclick="toggleSidebar(event)"><i class="fa fa-times"
+              aria-hidden="true"></i></a>
+        </p>
+        <h3>Settings</h3>
+        <hr id="bar">
 
-          <div class="radio-group">
-            <label for="celsiusRadio" class="radio">
-              <p class="radio-label">Temperature Units</p>
-              <input type="radio" name="degreegrp" id="celsiusRadio" onclick="temperatureToggle(event)" class="hidden" />
-              <span class="label"></span>Celsius
-            </label>
+        <div class="radio-group">
+          <label for="celsiusRadio" class="radio">
+            <p class="radio-label">Temperature Units</p>
+            <input type="radio" name="degreegrp" id="celsiusRadio" onclick="temperatureToggle(event)" class="hidden" />
+            <span class="label"></span>Celsius
+          </label>
 
-            <label for="fahrenheitRadio" class="radio">
-              <input type="radio" name="degreegrp" id="fahrenheitRadio" onclick="temperatureToggle(event)"
-                class="hidden" />
-              <span class="label"></span>Fahrenheit
-            </label>
-          </div>
-
-          <div class="toggle">
-            <p class="settings-label">Both Units</p>
-            <input type="checkbox" id="bothDegreesToggle" class="cbx hidden" onclick="bothDegreesToggleFn(event)" />
-            <label for="bothDegreesToggle" class="toggle-btn lbl"></label>
-          </div>
-
-          <div class="radio-group">
-            <label for="lightRadio" class="radio">
-              <p class="radio-label">Theme</p>
-              <input type="radio" name="themegrp" id="lightRadio" onclick="toggleTheme(event)" class="hidden" />
-              <span class="label"></span>Light "Yikes" Mode
-            </label>
-
-            <label for="darkRadio" class="radio">
-              <input type="radio" name="themegrp" id="darkRadio" onclick="toggleTheme(event)" class="hidden" />
-              <span class="label"></span>Dark Mode
-            </label>
-
-            <label for="draculaRadio" class="radio">
-              <input type="radio" name="themegrp" id="draculaRadio" onclick="toggleTheme(event)" class="hidden" />
-              <span class="label"></span>Improved Dark Mode
-            </label>
-
-          </div>
+          <label for="fahrenheitRadio" class="radio">
+            <input type="radio" name="degreegrp" id="fahrenheitRadio" onclick="temperatureToggle(event)"
+              class="hidden" />
+            <span class="label"></span>Fahrenheit
+          </label>
         </div>
 
-        <div class="centerme">
-          <h1>
-            <script type="text/javascript">
-              var phrases = [
-                'Powered By Dark Blockchain™',
-                'On The Outside I´m "$USER", But On The Inside I´m /dev/null 😔😢😔',
-                'Welcome To My Crybbb 😎😎😎',
-                'ǝʌᴉ˥ o┴ spuoɔǝS ǝɹǝW ǝʌɐH noλ',
-                'Don´t Dog The Boys - Ghandi',
-                'There´s No Place Like ~/',
-                'Follow Me On Twitter @UpperCenter',
-                'Ping 1.1.1.1 | lolcat',
-                'I Put The "Sigh" In Cyber',
-                'How To: Piss Off Every Designer Ever - www.userinyerface.com',
-                '"Technology Is Not A Panacea"',
-                '"Eternal Vigilance Is The Price Of Security"',
-                'btw i use Arch',
-                'POG',
-                'Buy My Bath Water, Now Only £299.99!',
-                '/weather clear',
-                '"Bebian Is The Most Secure OS" - Aristotle',
-                'msfconsole',
-                'Give Me My Second Monitor Back, Cowards',
-                'YEEEEEET',
-                'iFunny.co 😂😂 ',
-                'YOU´RE Breathtaking!',
-                'If You Don´t Play The Craft, You Don´t Get The Shaft™',
-                'Life Sucks, But It Doesn´t Swallow'
-              ];
-
-              var scripts = document.getElementsByTagName('script');
-              var meme = scripts[scripts.length - 1];
-              meme.parentNode.replaceChild(document.createTextNode(phrases[Math.floor(Math.random() * phrases.length)]), meme);
-            </script>
-          </h1>
-          <div id="weather">
-            <h2 id="weatherP"><span id="celsius"></span><span id="slash"> / </span><span id="fahrenheit"></span><span
-                id="weather-content"></span></h2>
-            <h2 id="dateTimeP"></h2>
-            <br>
-          </div>
-          <form action="https://duckduckgo.com/" method="get">
-            <div class="container input-group">
-              <input autocomplete="off" class="search-bar" name="q" placeholder="Search DuckDuckGo, the Superior Search Engine" type="text">
-            </div>
-          </form>
+        <div class="toggle">
+          <p class="settings-label">Both Units</p>
+          <input type="checkbox" id="bothDegreesToggle" class="cbx hidden" onclick="bothDegreesToggleFn(event)" />
+          <label for="bothDegreesToggle" class="toggle-btn lbl"></label>
         </div>
-        <br>
-        <br>
-        <div class="container centerme">
-          <div class="row">
-            <div class="col-sm">
-              <h4 id="smh">Social & Personal</h4>
-              <div id="social-links"></div>
-            </div>
-            <div class="col-sm">
-              <h4 id="mh">Help & Wikis</h4>
-              <div id="information-links"></div>
-            </div>
-            <div class="col-sm">
-              <h4 id="ph">University Stuff</h4>
-              <div id="university-links"></div>
-            </div>
-            <br>
-            <div class="col-sm">
-              <h4 id="nh">News</h4>
-              <div id="news-links"></div>
-            </div>
-            <br>
-            <div class="col-sm">
-              <h4 id="qh">Information Security</h4>
-              <div id="infosec-links"></div>
-            </div>
+
+        <div class="radio-group">
+          <label for="lightRadio" class="radio">
+            <p class="radio-label">Theme</p>
+            <input type="radio" name="themegrp" id="lightRadio" onclick="toggleTheme(event)" class="hidden" />
+            <span class="label"></span>Light "Yikes" Mode
+          </label>
+
+          <label for="darkRadio" class="radio">
+            <input type="radio" name="themegrp" id="darkRadio" onclick="toggleTheme(event)" class="hidden" />
+            <span class="label"></span>Dark Mode
+          </label>
+
+          <label for="draculaRadio" class="radio">
+            <input type="radio" name="themegrp" id="draculaRadio" onclick="toggleTheme(event)" class="hidden" />
+            <span class="label"></span>Improved Dark Mode
+          </label>
+
+        </div>
+      </div>
+
+      <div class="centerme">
+        <h1>
+          <script type="text/javascript">
+            var phrases = [
+              'Powered By Dark Blockchain™',
+              'On The Outside I´m "$USER", But On The Inside I´m /dev/null 😔😢😔',
+              'Welcome To My Crybbb 😎😎😎',
+              'ǝʌᴉ˥ o┴ spuoɔǝS ǝɹǝW ǝʌɐH noλ',
+              'Don´t Dog The Boys - Ghandi',
+              'There´s No Place Like ~/',
+              'Follow Me On Twitter @UpperCenter',
+              'Ping 1.1.1.1 | lolcat',
+              'I Put The "Sigh" In Cyber',
+              'How To: Piss Off Every Designer Ever - www.userinyerface.com',
+              '"Technology Is Not A Panacea"',
+              '"Eternal Vigilance Is The Price Of Security"',
+              'btw i use Arch',
+              'POG',
+              'Buy My Bath Water, Now Only £299.99!',
+              '/weather clear',
+              '"Bebian Is The Most Secure OS" - Aristotle',
+              'msfconsole',
+              'Give Me My Second Monitor Back, Cowards',
+              'YEEEEEET',
+              'iFunny.co 😂😂 ',
+              'YOU´RE Breathtaking!',
+              'If You Don´t Play The Craft, You Don´t Get The Shaft™',
+              'Life Sucks, But It Doesn´t Swallow'
+            ];
+
+            var scripts = document.getElementsByTagName('script');
+            var meme = scripts[scripts.length - 1];
+            meme.parentNode.replaceChild(document.createTextNode(phrases[Math.floor(Math.random() * phrases.length)]),
+              meme);
+          </script>
+        </h1>
+        <div id="weather">
+          <h2 id="weatherP"><span id="celsius"></span><span id="slash"> / </span><span id="fahrenheit"></span><span
+              id="weather-content"></span></h2>
+          <h2 id="dateTimeP"></h2>
+          <br>
+        </div>
+        <form action="https://duckduckgo.com/" method="get">
+          <div class="container input-group">
+            <input autocomplete="off" class="search-bar" name="q"
+              placeholder="Search DuckDuckGo, the Superior Search Engine" type="text">
+          </div>
+        </form>
+      </div>
+      <br>
+      <br>
+      <div class="container centerme">
+        <div class="row">
+          <div class="col-sm">
+            <h4 id="smh">Social & Personal</h4>
+            <div id="social-links"></div>
+          </div>
+          <div class="col-sm">
+            <h4 id="mh">Help & Wikis</h4>
+            <div id="information-links"></div>
+          </div>
+          <div class="col-sm">
+            <h4 id="ph">University Stuff</h4>
+            <div id="university-links"></div>
+          </div>
+          <br>
+          <div class="col-sm">
+            <h4 id="nh">News</h4>
+            <div id="news-links"></div>
+          </div>
+          <br>
+          <div class="col-sm">
+            <h4 id="qh">Information Security</h4>
+            <div id="infosec-links"></div>
           </div>
         </div>
       </div>
-      <script type="text/javascript" src="src/js/links.js"></script>
-      <script type="text/javascript" src="src/js/main.js"></script>
     </div>
+    <script type="text/javascript" src="src/js/links.js"></script>
+    <script type="text/javascript" src="src/js/main.js"></script>
   </div>
-</div>
 </body>
 
 </html>
