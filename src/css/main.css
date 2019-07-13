@@ -14,7 +14,7 @@
 }
 
 html, body {
-  font-family: "Hack";
+  font-family: "Hack", monospace;
   /* background-image: url(../sheev.jpeg) */
   height: 100%;
   overflow: hidden;
