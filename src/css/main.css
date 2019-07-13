@@ -1,5 +1,5 @@
 :root {
-  /* Better Dark theme variables */
+  /* Dracula theme variables */
   --dracula-theme-background: #0B0D0E;
   --dracula-theme-foreground: white;
   --dracula-scroll-background: #0B0D0E;
@@ -20,6 +20,7 @@ html, body {
   overflow: hidden;
 }
 
+/* ---- DRACULA THEME ---- */
 body.dracula {
   background-color: var(--dracula-theme-background);
   color: var(--dracula-theme-foreground);
@@ -53,7 +54,9 @@ body.dracula .search-bar {
 body.dracula hr {
   background-color: white;
 }
+/* ----------------- */
 
+/* ---- DARK THEME ---- */
 body.dark {
   background-color: var(--dark-theme-background);
   color: var(--dark-theme-foreground);
@@ -88,7 +91,9 @@ body.dark .search-bar {
 body.dark hr {
   background-color: white;
 }
+/* -------------------- */
 
+/* ---- LIGHT THEME ---- */
 body.light {
   background-color: var(--white-theme-background);
   color: var(--light-theme-foreground);
@@ -123,6 +128,8 @@ body.light .search-bar {
   border-color: #a7a7a7;
   border-left-color: #a7a7a7;
 }
+/* --------------------- */
+
 
 .jumbotron {
   font-family: "Hack";
