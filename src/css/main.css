@@ -21,6 +21,7 @@ body.dracula {
 body.dracula .jumbotron {
   background-color: #0b0d0e;
   color: white;
+  scrollbar-color: white #0b0d0e;
 }
 
 body.dracula a {
@@ -54,6 +55,7 @@ body.dark {
 body.dark .jumbotron {
   background-color: #222222;
   color: white;
+  scrollbar-color: #3F3F3F;
 }
 
 body.dark a {
@@ -88,6 +90,7 @@ body.light {
 body.light .jumbotron {
   background-color: #DDDDDD;
   color: black;
+  scrollbar-color: black #C0C0C0;
 }
 
 body.light a {
@@ -117,8 +120,9 @@ body.light .search-bar {
 .jumbotron {
   font-family: "Hack";
   height: 100%;
-  -webkit-transition: 0.5s;
+    -webkit-transition: 0.5s;
   transition: 0.5s;
+  overflow-y: scroll;
 }
 
 .sidebar {
