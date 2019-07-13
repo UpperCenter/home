@@ -1,11 +1,11 @@
 :root {
   /* Dracula theme variables */
   --dracula-theme-background: #0B0D0E;
-  --dracula-theme-foreground: white;
+  --dracula-theme-foreground: grey;
   --dracula-scroll-background: #0B0D0E;
   /* Dark theme variables */
   --dark-theme-background: #222222;
-  --dark-theme-foreground: white;
+  --dark-theme-foreground: grey;
   --dark-scroll-background: #3F3F3F;
   /* Light theme variables */
   --light-theme-background: #DDDDDD;
