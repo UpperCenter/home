@@ -53,6 +53,10 @@ let informationLinks = [
   {
     name: "Hacking Lib & Resources",
     url: "https://github.com/sbilly/awesome-security"
+  },
+  {
+    name: "UK Laws & Legislation",
+    url: "https://legislation.gov.uk"
   }
 ]
 
